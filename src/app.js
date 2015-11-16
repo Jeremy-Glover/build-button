@@ -2,10 +2,10 @@ var num = 0;
 
 $('button').click(function () {
   num++;
-  $('button').html(num + ' like');
+  $('button').html(num + ' Like');
   if (num <= 1) {
     return true;
   } else {
-  return $('button').html(num + ' likes');
+  return $('button').html(num + ' Likes');
   }
 });
